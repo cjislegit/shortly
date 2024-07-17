@@ -2,12 +2,12 @@ import mobileLogo from '../assets/images/logo.svg';
 
 const NavBar = () => {
   return (
-    <nav className='flex justify-between mt-[50px]'>
+    <nav className='flex justify-between mt-[50px] items-center'>
       <div>
-        <img src={mobileLogo} alt='' />
+        <img className='h-auto w-[60%]' src={mobileLogo} alt='Shortly logo' />
       </div>
       <div>
-        <i className='fa-solid fa-bars'></i>
+        <i className='fa-solid fa-bars fa-xl'></i>
       </div>
     </nav>
   );
