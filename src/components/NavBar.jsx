@@ -2,7 +2,7 @@ import mobileLogo from '../assets/images/logo.svg';
 
 const NavBar = () => {
   return (
-    <nav className='flex justify-between'>
+    <nav className='flex justify-between mt-[50px]'>
       <div>
         <img src={mobileLogo} alt='' />
       </div>
