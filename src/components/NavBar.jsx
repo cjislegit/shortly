@@ -2,7 +2,7 @@ import mobileLogo from '../assets/images/logo.svg';
 
 const NavBar = () => {
   return (
-    <nav className='flex justify-between mt-[50px] items-center'>
+    <nav className='flex justify-between mt-[50px] items-center poppins-medium'>
       <div className=' lg:flex lg:w-[50%] lg:gap-[40px]'>
         <img
           className='h-auto w-[50%] lg:w-[20%] lg:max-w-[95px]'
