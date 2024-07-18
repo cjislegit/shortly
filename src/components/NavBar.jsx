@@ -7,7 +7,7 @@ const NavBar = () => {
         <img className='h-auto w-[60%]' src={mobileLogo} alt='Shortly logo' />
       </div>
       <div>
-        <i className='fa-solid fa-bars fa-xl'></i>
+        <i className='fa-solid fa-bars fa-lg text-custom-gray'></i>
       </div>
     </nav>
   );
