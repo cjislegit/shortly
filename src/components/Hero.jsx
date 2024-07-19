@@ -10,13 +10,17 @@ const Hero = () => {
           className='ml-[80px]'
         />
       </div>
-      <div>
-        <h1>More than just shorter links</h1>
-        <p>
+      <div className='text-center pt-[20px]'>
+        <h1 className='poppins-bold text-3xl'>More than just shorter links</h1>
+        <p className='popping-normal text-custom-gray mt-[10px] text-sm mb-[20px]'>
           Build your brand's recognition and get detailed insights on how your
           links are performing.
         </p>
-        <input type='button' value='Get Started' />
+        <input
+          type='button'
+          value='Get Started'
+          className='text-white bg-custom-cyan text-sm'
+        />
       </div>
     </section>
   );
