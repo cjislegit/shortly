@@ -10,11 +10,11 @@ const Hero = () => {
           className='ml-[80px]'
         />
       </div>
-      <div className='text-center pt-[20px] lg:text-start'>
+      <div className='text-center pt-[20px] lg:text-start lg:pl-[90px]'>
         <h1 className='poppins-bold text-3xl lg:text-6xl'>
           More than just shorter links
         </h1>
-        <p className='popping-normal text-custom-gray mt-[10px] text-sm mb-[20px] px-[50px] lg:px-0 lg:text-xl'>
+        <p className='popping-normal text-custom-gray mt-[10px] text-sm mb-[20px] px-[50px] lg:px-0 lg:text-xl lg:pr-[25%]'>
           Build your brand's recognition and get detailed insights on how your
           links are performing.
         </p>
