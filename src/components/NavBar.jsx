@@ -15,7 +15,10 @@ const NavBar = () => {
           <li>Resources</li>
         </ul>
       </div>
-      <div className='text-custom-gray lg:w-[50%] lg:flex justify-end lg:pr-[90px]'>
+      <div
+        className='text-custom-gray lg:w-[50%] lg:flex justify-end lg:pr
+      -[90px]'
+      >
         <i className='fa-solid fa-bars fa-lg lg:hidden'></i>
         <ul className='hidden lg:flex lg:gap-[30px] items-center'>
           <li>Login</li>
