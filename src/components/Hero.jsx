@@ -2,15 +2,15 @@ import working from '../assets/images/illustration-working.svg';
 
 const Hero = () => {
   return (
-    <section className='pt-[10px] lg:flex lg:flex-row-reverse lg:pt-[90px]'>
-      <div className='overflow-hidden'>
+    <section className='pt-[10px] lg:flex lg:flex-row-reverse lg:pt-[90px] lg:justify-end'>
+      <div className='overflow-hidden lg:w-[50%] lg:flex lg:justify-end lg:flex-auto '>
         <img
           src={working}
           alt='Illustration of a person working at a desk'
-          className='ml-[80px]'
+          className='mr-[-80px]'
         />
       </div>
-      <div className='text-center pt-[20px] lg:text-start lg:pl-[90px] max-w-[725px]'>
+      <div className='text-center pt-[20px] lg:text-start lg:pl-[90px] max-w-[725px] lg:flex lg:flex-col'>
         <h1 className='poppins-bold text-3xl lg:text-6xl'>
           More than just shorter links
         </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
         <input
           type='button'
           value='Get Started'
-          className='bg-custom-cyan text-white px-[20px] py-[6px] rounded-3xl lg:px-[40px] lg:py-[10px]'
+          className='bg-custom-cyan text-white px-[20px] py-[6px] rounded-3xl lg:px-[40px] lg:py-[10px] lg:max-w-[160px]'
         />
       </div>
     </section>
