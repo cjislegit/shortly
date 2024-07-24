@@ -10,7 +10,7 @@ const Hero = () => {
           className='ml-[80px]'
         />
       </div>
-      <div className='text-center pt-[20px] lg:text-start lg:pl-[90px]'>
+      <div className='text-center pt-[20px] lg:text-start lg:pl-[90px] max-w-[725px]'>
         <h1 className='poppins-bold text-3xl lg:text-6xl'>
           More than just shorter links
         </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
         <input
           type='button'
           value='Get Started'
-          className='bg-custom-cyan text-white px-[20px] py-[6px] rounded-3xl'
+          className='bg-custom-cyan text-white px-[20px] py-[6px] rounded-3xl lg:px-[40px] lg:py-[10px]'
         />
       </div>
     </section>
