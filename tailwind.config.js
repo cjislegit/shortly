@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'shorten-mobile': 'url("/src/assets/images/bg-shorten-mobile.svg")',
+      },
       colors: {
         'custom-cyan': 'hsl(180, 66%, 49%)',
         'dark-violet': 'hsl(257, 27%, 26%)',
