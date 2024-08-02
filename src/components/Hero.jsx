@@ -2,7 +2,7 @@ import working from '../assets/images/illustration-working.svg';
 
 const Hero = () => {
   return (
-    <section className='pt-[10px] lg:flex lg:flex-row-reverse lg:pt-[90px] lg:justify-end'>
+    <section className='pt-[10px] lg:flex lg:flex-row-reverse lg:pt-[90px] lg:justify-end px-[50px]'>
       <div className='overflow-hidden lg:w-[50%] lg:flex lg:justify-end lg:flex-auto '>
         <img
           src={working}
