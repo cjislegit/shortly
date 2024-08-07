@@ -1,7 +1,7 @@
 const Statistics = () => {
   return (
-    <section className='bg-grayish-violet w-[100%] px-[50px] relative'>
-      <div className='bg-shorten-mobile  bg-right-top bg-no-repeat bg-dark-violet rounded-md mt-[50px] relative'>
+    <section className='bg-grayish-violet w-[100%] px-[50px] relative mt-[150px]'>
+      <div className='bg-shorten-mobile  bg-right-top bg-no-repeat bg-dark-violet rounded-md mt-[50px] relative top-[-70px]'>
         <form action='' className='flex flex-col px-[10%] py-[10%]'>
           <input
             className='rounded-md mb-[15px] h-[35px] pl-[15px]'
