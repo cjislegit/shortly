@@ -2,10 +2,10 @@ import mobileLogo from '../assets/images/logo.svg';
 
 const NavBar = () => {
   return (
-    <nav className='flex justify-between mt-[50px] items-center poppins-medium px-[50px]'>
+    <nav className='flex justify-between mt-[50px] items-center poppins-medium px-[20px]'>
       <div className=' lg:flex lg:w-[50%] lg:gap-[40px] lg:pl-[90px]'>
         <img
-          className='h-auto w-[50%] lg:w-[20%] lg:max-w-[95px]'
+          className='h-auto w-[90%] lg:w-[20%] lg:max-w-[95px]'
           src={mobileLogo}
           alt='Shortly logo'
         />
@@ -16,7 +16,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className='text-custom-gray lg:w-[50%] lg:flex justify-end lg:pr-[90px]'>
-        <i className='fa-solid fa-bars fa-lg lg:hidden'></i>
+        <i className='fa-solid fa-bars fa-2x lg:hidden'></i>
         <ul className='hidden lg:flex lg:gap-[30px] items-center'>
           <li>Login</li>
           <li className='bg-custom-cyan text-white px-[20px] py-[6px] rounded-3xl'>
