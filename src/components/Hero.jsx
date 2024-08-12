@@ -7,10 +7,10 @@ const Hero = () => {
         <img
           src={working}
           alt='Illustration of a person working at a desk'
-          className='mr-[-80px]'
+          className='ml-[20px] w-[500px] h-auto max-w-none'
         />
       </div>
-      <div className='text-center pt-[40px] lg:text-start lg:pl-[90px] max-w-[725px] lg:flex lg:flex-col'>
+      <div className='text-center px-[20px] pt-[40px] lg:text-start lg:pl-[90px] max-w-[725px] lg:flex lg:flex-col'>
         <h1 className='poppins-bold text-3xl lg:text-6xl'>
           More than just shorter links
         </h1>
