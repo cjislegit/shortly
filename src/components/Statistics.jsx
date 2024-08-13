@@ -4,9 +4,9 @@ import fullyCustomizable from '../assets/images/icon-fully-customizable.svg';
 
 const Statistics = () => {
   return (
-    <section className='bg-gray-100 w-[100%] px-[50px] relative mt-[150px] text-center'>
-      <div className='bg-shorten-mobile  bg-right-top bg-no-repeat bg-dark-violet rounded-md mt-[50px] relative top-[-70px]'>
-        <form action='' className='flex flex-col px-[10%] py-[10%]'>
+    <section className='bg-gray-100 w-[100%] px-[25px] relative mt-[150px] text-center'>
+      <div className='bg-shorten-mobile  bg-right-top bg-no-repeat bg-dark-violet rounded-md mt-[50px] relative top-[-70px] lg:bg-shorten-desktop'>
+        <form action='' className='flex flex-col px-[10%] py-[10%] lg:flex-row'>
           <input
             className='rounded-md mb-[15px] h-[35px] pl-[15px]'
             type='text'

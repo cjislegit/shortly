@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         'shorten-mobile': 'url("/src/assets/images/bg-shorten-mobile.svg")',
+        'shorten-desktop': 'url("/src/assets/images/bg-boost-desktop.svg")',
       },
       colors: {
         'custom-cyan': 'hsl(180, 66%, 49%)',

@@ -14,7 +14,7 @@ const Hero = () => {
         <h1 className='poppins-bold text-3xl lg:text-6xl'>
           More than just shorter links
         </h1>
-        <p className='popping-normal text-custom-gray mt-[10px] text-sm mb-[20px] lg:px-0 lg:text-xl lg:pr-[25%]'>
+        <p className='popping-normal text-custom-gray mt-[10px] mb-[20px] lg:px-0 lg:text-xl lg:pr-[25%]'>
           Build your brand's recognition and get detailed insights on how your
           links are performing.
         </p>
