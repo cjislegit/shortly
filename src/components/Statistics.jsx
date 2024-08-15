@@ -5,13 +5,13 @@ import fullyCustomizable from '../assets/images/icon-fully-customizable.svg';
 const Statistics = () => {
   return (
     <section className='bg-gray-100 w-[100%] px-[25px] relative mt-[150px] text-center'>
-      <div className='bg-shorten-mobile  bg-right-top bg-no-repeat bg-dark-violet rounded-md mt-[50px] relative top-[-70px] lg:bg-shorten-desktop'>
+      <div className='bg-shorten-mobile  bg-right-top bg-no-repeat bg-dark-violet rounded-md mt-[50px] relative top-[-70px] lg:bg-shorten-desktop lg:flex lg:justify-center lg:py-[25px]'>
         <form
           action=''
-          className='flex flex-col px-[10%] py-[10%] lg:flex-row lg:py-0'
+          className='flex flex-col px-[10%] py-[10%] lg:flex-row lg:py-0 lg:w-[100%] lg:px-[5%]'
         >
           <input
-            className='rounded-md mb-[15px] h-[35px] pl-[15px]'
+            className='rounded-md mb-[15px] h-[35px] pl-[15px] lg:mb-0'
             type='text'
             name='link'
             id='link'
