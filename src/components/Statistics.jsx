@@ -11,14 +11,14 @@ const Statistics = () => {
           className='flex flex-col px-[10%] py-[10%] lg:flex-row lg:py-0 lg:w-[100%] lg:px-[5%]'
         >
           <input
-            className='rounded-md mb-[15px] h-[35px] pl-[15px] lg:mb-0'
+            className='rounded-md mb-[15px] h-[35px] pl-[15px] lg:mb-0 lg:w-[90%] lg:mr-[20px]'
             type='text'
             name='link'
             id='link'
             placeholder='Shorten a link here...'
           />
           <input
-            className='rounded-md text-white bg-custom-cyan h-[35px]'
+            className='rounded-md text-white bg-custom-cyan h-[35px] lg:w-[15%]'
             type='submit'
             value='Shorten It!'
           />
