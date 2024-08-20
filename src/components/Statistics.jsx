@@ -4,7 +4,7 @@ import fullyCustomizable from '../assets/images/icon-fully-customizable.svg';
 
 const Statistics = () => {
   return (
-    <section className='bg-gray-100 w-[100%] px-[25px] relative mt-[150px] text-center'>
+    <section className='bg-gray-100 w-[100%] px-[25px] relative mt-[150px] text-center lg:px-[100px]'>
       <div className='bg-shorten-mobile  bg-right-top bg-no-repeat bg-dark-violet rounded-md mt-[50px] relative top-[-70px] lg:bg-shorten-desktop lg:flex lg:justify-center lg:py-[25px]'>
         <form
           action=''
